@@ -1,8 +1,8 @@
 import time
 import network
  
-ssid = 'ASUS-HANN'
-password = 'hann1688'
+ssid = 'wifi-SID'
+password = 'password'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
