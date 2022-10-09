@@ -2,8 +2,8 @@ import time
 import network
 import ubinascii
  
-ssid = 'hpProBook'
-password = 'hann51688'
+ssid = 'wifisid'
+password = 'password'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
